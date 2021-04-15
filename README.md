@@ -1,21 +1,21 @@
 # PROJECT CATWALK
 
-### INDEX
+### TABLE OF CONTENTS
 
-1. [Summary](#summary)
-2. [Installation](#installation)
-3. [Getting Started](#getting-started)
-4. [Module descriptions](#module-descriptions)
-6. [Running the Tests](#running-the-tests)
-7. [Authors](#authors)
-8. [License](#license)
-9. [Acknowledgements](#acknowledgements)
+1. [DESCRIPTION](#description)
+2. [INSTALLATION](#installation)
+3. [GETTING STARTED](#getting-started)
+4. [MODULE DESCRIPTIONS](#module-descriptions)
+5. [LICENSE](#license)
+6. [ACKNOWLEDGEMENTS](#acknowledgements)
 
 
-## Summary
+### Description <a name="description"></a>
+
+<img src="./assets/videos/FEC_gif.gif" width="600" height="auto"/>
   Project Catwalk is an ecommerce, retail-centric website application. It updates our companies outdated, retail portal with a modernized, React-based client running on a lean express server. The application organizes and serves information regarding product details, related products, user looks, product question and anwers, and product reviews, as well as a product search feature.
 
-### Installation
+### Installation <a name="installation"></a>
 ###### Pre-Installation Requirements
     Node v14.15.1
     NPM v6.14.11
@@ -28,11 +28,11 @@
     };
   - Run 'npm react-dev' to bundle webpack. Webpack will watch for code changes automatically.
 
-### Getting Started
+### Getting Started <a name="getting-started"></a>
   To run the server locally on your machine, run 'npm start' within the root directory.
   The server runs on PORT 3000 by default. Navigate to http://localhost:3000 to view the client.
 
-## Module Descriptions
+### Module Descriptions <a name="module-descriptions"></a>
 
 ### Product Details
 In this component, a user can view a product, select through different assortments, and view different accessories. Features include:
@@ -79,19 +79,10 @@ The last item in this section is a pop-out modal that will allow a user to write
 
 Future enhancements would include a section for a reviewer to post pictures and display them, and a search feature that would filter reviews based on a search parameter.
 
-## Running The Tests
-  To run jest tests that cover the entire project, run 'npm test' in the root dir.
-
-## Authors
-  * Connie Tsai - Questions and Answers, Scrum Master
-  * Michael Smith - Related Products and User Looks
-  * Daniel Kosykh - Product Reviews
-  * Liem Nguyen - Product Details
-
-## License
+### License <a name="license"></a>
   This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## Acknowledgements
+### Acknowledgements <a name="acknowledgements"></a>
   We'd like to express our deepest gratitude to Rob Lopez and Maia Ling for their feedback on this project.
 
   Additional Thanks To:
