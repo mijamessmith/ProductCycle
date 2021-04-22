@@ -1,9 +1,9 @@
-var router = require('express').Router();
-var _merge = require('lodash/merge');
-var productController = require('../controller/products').productController;
-var reviewController = require('../controller/reviews').reviewController;
+const router = require('express').Router();
+const _merge = require('lodash/merge');
+const productController = require('../controller/products').productController;
+const reviewController = require('../controller/reviews').reviewController;
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
   if (!req.query.id) {
     res.sendStatus(404);
   } else {
@@ -33,7 +33,5 @@ router.get('/', (req, res, next) => {
       });
   }
 });
-
-
 
 module.exports.curentProductInformation = router;

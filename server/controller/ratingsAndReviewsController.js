@@ -11,8 +11,8 @@ const metaReviewsURL = `${URL}/reviews/meta`;
 const options = {
   headers: {
     'Authorization': auth_token
-  }
-}
+  },
+};
 
 // Set Controller for API Requests___________________________
 const ratingsAndReviewsController = {

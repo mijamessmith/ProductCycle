@@ -1,14 +1,14 @@
 const axios = require('axios');
 const auth_token = require('../../authorization.config.js').token;
 
-var options = {
+const options = {
   headers: {
     'Authorization': auth_token
-  }
-}
-var url = 'https://app-hrsei-api.herokuapp.com/api/fec2/hr-sfo/products';
+  },
+};
+const url = 'https://app-hrsei-api.herokuapp.com/api/fec2/hr-sfo/products';
 
-var productController = {
+const productController = {
   getAllProducts: () => {
    return new Promise((resolve, reject) => {
      axios.get(url, options)
